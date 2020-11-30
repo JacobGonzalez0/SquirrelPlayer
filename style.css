@@ -1,0 +1,78 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:640px;
+}
+
+.titlebar{
+    display:grid;
+    /* Calc based on button size */
+    grid-template-columns: 120px auto calc(32px * 3);
+}
+
+.title{
+
+}
+
+.titlePlaying{
+    text-align:center;
+}
+
+.titleButtons{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    text-align:right;
+}
+
+.titleButtons{
+
+}
+
+.content{
+    width:640px;
+    border:1px black solid;
+    height:360px;
+}
+
+.controls{
+    display:grid;
+    /* Calc based on buttons being 40px each */
+    grid-template-columns: calc(40px * 4) auto 200px;;
+}
+
+.controlButtons{
+    display:grid;
+    /* Repeat based on buttons in div */
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.controlButtons div{
+    border: 1px solid black;
+    text-align:center;
+    line-height: 40px;
+}
+
+.modeButtons{
+    display: grid;
+    grid-template-columns: 30px 30px auto;
+}
+
+.modeButtons div{
+    border:1px solid black;
+    text-align:center;
+    line-height: 40px;
+}
+
+/* the empty space div .empty*/
+.modeButtons div:nth-child(3){
+    border:0;
+}
+
+
+.timeCode{
+    text-align:right;
+}
