@@ -1,47 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     border:0;
     margin:0;
     padding:0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.credits{
+    display:none;
 }
 
 .container{
-    width:640px;
+    max-width:640px;
+    background: black;
+    color:white;
+
 }
 
 .titlebar{
+    font-size:.8em;
+    padding:.3em 0;
     display:grid;
     /* Calc based on button size */
     grid-template-columns: 120px auto calc(32px * 3);
+    color:white;
+    background: linear-gradient(180deg, rgb(0 0 0) 2%, rgba(43,43,43,1) 11%, rgba(28,28,28,1) 38%, rgba(30,30,30,1) 67%, rgb(25 25 25) 91%, rgba(0,0,0,1) 97%);
 }
 
 .title{
-
+    text-align: center;
 }
 
 .titlePlaying{
     text-align:center;
+    color:rgb(179, 179, 179);
+    font-size:.8em;
+    line-height: 1.5em;
 }
 
 .titleButtons{
     display:grid;
     grid-template-columns: repeat(3, auto);
     text-align:right;
+    margin-top:2px;
 }
 
-.titleButtons{
+.titleButtons div{
+    text-align: center;
+    border:2px solid rgb(0, 0, 0);
+    width:20px;
+    height:1.2em;
+    font-size:.5em;
+    color:rgb(200,200,200);
+    border-radius:3px;    
+}
+
+.titleButtons div:hover{
+    border:2px solid rgb(128, 128, 128);
+    background: rgba(65, 65, 65, 0.726);
+}
+
+.titleButtons i {
+    /* line-height = height above; centers icons vertically since they are font-awesome*/
+    line-height: 1.2em;
+    margin-top:-1px;
+    border:1px solid rgb(75, 75, 75);
+    width:calc(100% - 2px);
+    border-radius:3px; 
 
 }
 
 .content{
-    width:640px;
-    border:1px black solid;
+    /* Calc for border compenstation*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:calc(100% - 4px);
+    border:2px black solid;
+    border-radius:12px;
     height:360px;
+    background: rgb(94,94,94);
+    background: linear-gradient(180deg, rgb(21 21 21) 2%, rgba(43,43,43,1) 14%, rgba(28,28,28,1) 43%, rgb(39 39 39) 87%, rgb(12 12 12) 100%)
+}
+
+.content img{
+    height:120px;
+    fill: red;
+}
+
+.content object{
+    height:120px;
+    fill:white;
+    filter: brightness(3);
 }
 
 .controls{
     display:grid;
     /* Calc based on buttons being 40px each */
-    grid-template-columns: calc(40px * 4) auto 200px;;
+    grid-template-columns: calc(40px * 4) auto 80px;
 }
 
 .controlButtons{
