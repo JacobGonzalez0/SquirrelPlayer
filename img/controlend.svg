@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 640" width="640" height="640"><defs><path d="M0 640L550.06 640L494.91 523.29C404.41 308.52 338.9 165.47 298.36 94.14C257.82 22.82 158.37 -7.98 0 1.75L0 640Z" id="j1Te71QmWi"></path>
+	
+	<linearGradient id="gradientb3lWH2EtXW" gradientUnits="userSpaceOnUse" x1="275.03" y1="0" x2="275.03" y2="640">
+		
+	<stop offset="0%" style="stop-color:rgb(102,102,102);stop-opacity:1;" />
+			<stop offset="23%" style="stop-color:rgb(52,52,52);stop-opacity:1;" />
+			<stop offset="49%" style="stop-color:rgb(30,30,30);stop-opacity:1;" />
+			<stop offset="74%" style="stop-color:rgb(14,14,14);stop-opacity:1;" />
+	
+	</linearGradient>
+	
+	
+	<path d="" id="d1IrkfJndJ"></path></defs><g><g><g><use xlink:href="#j1Te71QmWi" opacity="1" fill="url(#gradientb3lWH2EtXW)"></use><g><use xlink:href="#j1Te71QmWi" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="1"></use></g></g><g><g><use xlink:href="#d1IrkfJndJ" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="1"></use></g></g></g></g></svg>
