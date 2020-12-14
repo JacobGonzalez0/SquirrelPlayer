@@ -64,6 +64,18 @@
             }
         }
 
+        changeVolume(input){
+            if(typeof input !== "number") return false;
+            
+
+            if(input >= 1){
+                this.audio.volume = parseInt(input)
+            }else(
+                this.audio.volume = parseInt(input / 100)
+            )
+            
+        }
+
     }
 
     var player = new Player();
